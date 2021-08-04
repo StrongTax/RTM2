@@ -6,7 +6,7 @@ import "../Astyles/Art1.css";
 function Art1() {
   return (
     <div className="Art1">
-        <div className="Tag">Guardia Nacional</div>
+        <div className="Tag">Guardi0a Nacional</div>
          <div className="Art1Titulo"> Acerca De Recupera Tus Multas</div>
       <div
         className="Art1Top"
