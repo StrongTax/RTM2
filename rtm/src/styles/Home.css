@@ -1,0 +1,125 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+.home {
+  width: 100%;
+  height: auto;
+  padding-bottom: 100px;
+  display: flex;
+  padding-top: 100px;
+  padding-right: 15%;
+  flex-direction: column;
+  background-position: 0px 00px;
+  background-repeat: no-repeat;
+  background-size:auto 530px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.headerContainer {
+  width: 60%;
+  margin-left: 50px;
+  
+}
+
+.headerContainer h1 {
+  font-family: 'Roboto', sans-serif;
+  padding-right: 15%;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  height: 40px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+
+.headerContainer p {
+  padding-top: 30px;
+  padding-right: 15%;
+  font-size: 25px; height: 100px;
+  font-weight: lighter;
+  color: rgb(255, 255, 255);
+}
+
+.headerContainer button {
+  width: 250px;
+  height: 60px;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(25, 78, 14, 0.479);
+  border: 30px;
+  Font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 1px;
+  backdrop-filter: blur(8px);
+  cursor: pointer;
+  border-radius: 16px;
+  transition: 0.5s;
+}
+
+.headerContainer button:after{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+      45deg,
+      transparent 50%,
+      rgba(255,255,255,0.03) 58%,
+      rgba(255,255,255,0.16) 67%,
+      transparent 68%
+  );
+  background-size: 200% 100%;
+  background-position: 165% 0;
+  transition: 0.7s;
+}
+
+.headerContainer button:hover:after{
+  background-position: -20% 0;
+}
+
+.headerContainer button:hover{
+  box-shadow: 15px 30px 32px rgba(0,0,0,0.25);
+  transform: translateY(-10px);
+}
+
+@media only screen and (max-width: 960px) {
+  .home {
+ padding-right: 15%;
+  font-size: 40px;
+  font-weight: 50;
+  color: rgb(255, 255, 255);
+  background-size:1550px 530px;
+  align-items: left;
+  }
+  .headerContainer h1,
+  .headerContainer p {
+  }
+
+  .headerContainer h1 {
+    font-size: 40px;
+
+    height: 30px;
+    color: white;
+  }
+
+  .headerContainer p {
+    padding-top: 50px;
+    font-size: 20px;
+    color: white;
+  }
+
+
+}
+
+
