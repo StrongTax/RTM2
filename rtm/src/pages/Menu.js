@@ -8,13 +8,14 @@ function Menu() {
     <div className="menu">
       <h1 className="menuTitle">Nuestros Articulos</h1>
       <div className="menuList">
-        {MenuList.map((menuItem, key) => {
+        {MenuList.map((menuItem, key, url) => {
           return (
             <MenuItem
               key={key}
               image={menuItem.image}
               name={menuItem.Nombre}
               price={menuItem.Articulo}
+              url={url} 
             />
           );
         })}

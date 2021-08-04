@@ -12,9 +12,9 @@ export const MenuList = [
     Articulo: "Las Multa o infracciones impuestas por la Guardia Nacional",
   },
   {
-    Nombre: "Articulo 2",
+    Nombre: "Autoridades",
     image: Margherita,
-    Articulo: "Lorem Ipsum",
+    Articulo: "Multas impuestas por autoridades de vigilancia y sanitaria",
   },
   {
     Nombre: "Art 3",

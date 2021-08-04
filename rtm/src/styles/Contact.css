@@ -24,7 +24,7 @@
 }
 
 .contact .rightSide h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 30px;
   font-size: 50px;
   margin-left: 30px;
@@ -59,7 +59,7 @@ input::placeholder,
 textarea::placeholder {
   font-weight: bold;
   color: black;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
 }
 form input:focus,
 textarea:focus {

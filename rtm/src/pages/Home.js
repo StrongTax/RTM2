@@ -5,7 +5,7 @@ import "../styles/Home.css";
 import { MenuList } from "../helpers/MenuList";
 import MenuItem from "../components/MenuItem";
 import "../styles/Menu.css";
-import { principalArt } from "../helpers/MenuList copy";
+
 
 
 

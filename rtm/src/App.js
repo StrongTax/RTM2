@@ -8,6 +8,7 @@ import Contact from "./pages/Contact";
 import iphone from "./assets/iphone.png";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Art1 from "./articulos/Art1"
+import { FooterContainer } from './containers/footer'
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
 
         </Switch>
        
-        <Footer />
+       <FooterContainer />
       </Router>
       
     </div>
