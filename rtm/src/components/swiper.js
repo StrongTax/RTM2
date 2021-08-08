@@ -27,7 +27,7 @@ export default function swipe() {
   return (
     <>
     <Swiper spaceBetween={30} centeredSlides={true} autoplay={{
-  "delay": 100000000,
+  "delay": 100000,
   "disableOnInteraction": false
 }} pagination={{
   "clickable": true

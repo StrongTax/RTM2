@@ -27,7 +27,7 @@
   cursor: pointer;
   justify-content: center;
   align-items: center;
-  background-color: #1fa521;
+  background-color: #34a853;
   color: #ffffff;
   text-decoration: none;
   font-size: 20px;
@@ -51,10 +51,10 @@
 
 
 .navbar a {
-  color: #16C11A;
+  color: #34a853;
   text-decoration: none;
   margin: 30px;
-  font-size: 20px;
+  font-size: 26px;
   font-weight: 400px;
   font-family: 'Nunito Sans', sans-serif;
   
@@ -63,7 +63,7 @@
 .navbar .rightSide button {
   background-color: transparent;
   border: none;
-  color: #16C11A;
+
   cursor: pointer;
 }
 
